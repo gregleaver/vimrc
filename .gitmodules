@@ -4,3 +4,6 @@
 [submodule "bundle/256-grayvim"]
 	path = bundle/256-grayvim
 	url = https://github.com/vim-scripts/256-grayvim.git
+[submodule "bundle/snipMate"]
+	path = bundle/snipMate
+	url = https://github.com/vim-scripts/snipMate.git
