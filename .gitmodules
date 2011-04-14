@@ -1,0 +1,6 @@
+[submodule "vim-pathogen"]
+	path = vim-pathogen
+	url = https://github.com/tpope/vim-pathogen.git
+[submodule "bundle/256-grayvim"]
+	path = bundle/256-grayvim
+	url = https://github.com/vim-scripts/256-grayvim.git
