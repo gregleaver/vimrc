@@ -16,3 +16,6 @@
 [submodule "bundle/PHP-Indenting"]
 	path = bundle/PHP-Indenting
 	url = https://github.com/vim-scripts/PHP-correct-Indenting.git
+[submodule "bundle/fugitive"]
+	path = bundle/fugitive
+	url = https://github.com/tpope/vim-fugitive.git
