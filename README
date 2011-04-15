@@ -1,6 +1,9 @@
 Installation:
 
     git clone git://github.com/gregleaver/vimrc.git ~/.vim
+    sh ~/.vim/setup
+
+~/.vim/setup will run the following:
 
 Switch to the `~/.vim` directory, and fetch submodules:
 
