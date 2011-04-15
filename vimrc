@@ -6,7 +6,12 @@ call pathogen#helptags()
 imap qq <Esc> 		
 
 " Colours
-colorscheme 256-grayvim
+set background=dark
+if has('gui_running')
+  colorscheme solarized
+else
+  colorscheme 256-grayvim
+endif
 
 " Use Vim settings, rather then Vi settings (much better!).
 " This must be first, because it changes other options as a side effect.
