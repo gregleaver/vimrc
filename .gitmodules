@@ -13,3 +13,6 @@
 [submodule "bundle/LineCommenter"]
 	path = bundle/LineCommenter
 	url = https://github.com/vim-scripts/LineCommenter.git
+[submodule "bundle/PHP-Indenting"]
+	path = bundle/PHP-Indenting
+	url = https://github.com/vim-scripts/PHP-correct-Indenting.git
