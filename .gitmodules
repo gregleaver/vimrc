@@ -4,9 +4,6 @@
 [submodule "bundle/256-grayvim"]
 	path = bundle/256-grayvim
 	url = https://github.com/vim-scripts/256-grayvim.git
-[submodule "bundle/snipMate"]
-	path = bundle/snipMate
-	url = https://github.com/vim-scripts/snipMate.git
 [submodule "bundle/molokai"]
 	path = bundle/molokai
 	url = https://github.com/vim-scripts/molokai.git
@@ -22,3 +19,6 @@
 [submodule "bundle/solarized"]
 	path = bundle/solarized
 	url = https://github.com/altercation/vim-colors-solarized.git
+[submodule "bundle/snipMate"]
+	path = bundle/snipMate
+	url = git@github.com:gregleaver/snipmate.vim.git
