@@ -5,4 +5,5 @@ cd ~/.vim
 echo "Setting up symlinks"
 ln -s ~/.vim/vimrc ~/.vimrc
 ln -s ~/.vim/gvimrc ~/.gvimrc
+mkdir -p ~/.vim/autoload
 ln -s ~/.vim/vim-pathogen/autoload/pathogen.vim ~/.vim/autoload/pathogen.vim
