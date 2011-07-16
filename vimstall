@@ -4,5 +4,3 @@ github=$1
 bundle=$2
 
 git submodule add $1 bundle/$2
-git add .
-git commit -m "Install $2 bundle as a submodule."
