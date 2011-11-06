@@ -28,3 +28,6 @@
 [submodule "bundle/NERDtree"]
 	path = bundle/NERDtree
 	url = https://github.com/vim-scripts/The-NERD-tree.git
+[submodule "bundle/Tagbar"]
+	path = bundle/Tagbar
+	url = https://github.com/vim-scripts/Tagbar.git
