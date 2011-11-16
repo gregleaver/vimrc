@@ -5,6 +5,9 @@ call pathogen#helptags()
 " Remap qq to escape Insert mode 
 imap qq <Esc> 		
 
+map <Leader>n :NERDTreeToggle<Return>
+map <Leader>t :TagbarToggle<Return>
+
 " Colours
 set background=dark
 if has('gui_running')
