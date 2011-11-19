@@ -28,3 +28,6 @@
 [submodule "bundle/Tagbar"]
 	path = bundle/Tagbar
 	url = https://github.com/vim-scripts/Tagbar.git
+[submodule "bundle/coffee-script"]
+	path = bundle/coffee-script
+	url = https://github.com/vim-scripts/vim-coffee-script.git
