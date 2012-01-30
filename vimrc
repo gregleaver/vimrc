@@ -74,3 +74,11 @@ if has("autocmd")
     \ endif
   augroup END
 endif
+
+" Autocomplete
+set completeopt=longest,menuone
+if has('gui_running')
+  inoremap <C-Space> <C-n>
+else
+  inoremap <Nul> <C-n
+endif
