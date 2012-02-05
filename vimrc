@@ -82,3 +82,7 @@ if has('gui_running')
 else
   inoremap <Nul> <C-n
 endif
+
+" UltiSnips
+let g:UltiSnipsSnippetsDir="~/.vim/snippets"
+let g:UltiSnipsSnippetDirectories=["UltiSnips","snippets"]
