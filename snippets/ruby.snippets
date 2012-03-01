@@ -1,0 +1,29 @@
+snippet module "Module" !b
+module ${1:ModuleName}
+  $0
+end
+endsnippet
+
+snippet class "Class" !b
+class ${1:ClassName} ${2:< ${3:ParentClass}}
+  ${4:def initialize${5:(${6:args})}
+    $7
+  end}
+end
+endsnippet
+
+snippet req "Require" !b
+require '$1'
+endsnippet
+
+snippet do "Do Block" !
+do ${1:|${2:args}|}
+  $0
+end
+endsnippet
+
+snippet test "TestCase" !b
+class ${1:TestName}TestCase < Test::Unit::TestCase
+  $0
+end
+endsnippet
