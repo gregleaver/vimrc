@@ -77,10 +77,11 @@ endif
 
 " Autocomplete
 set completeopt=longest,menuone
+set omnifunc=syntaxcomplete#Complete
 if has('gui_running')
   inoremap <C-Space> <C-n>
 else
-  inoremap <Nul> <C-n
+  inoremap <Nul> <C-n>
 endif
 
 " UltiSnips
