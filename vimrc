@@ -13,7 +13,7 @@ set background=dark
 if has('gui_running')
   colorscheme solarized
 else
-  colorscheme 256-grayvim
+  colorscheme desert
 endif
 
 " Use Vim settings, rather then Vi settings (much better!).
